@@ -31,7 +31,6 @@ data = data.select('attributevalue').withColumn("newcolumn", F.lit(date.today())
 
 data.show()
 
-
 end  = datetime.now()
 
 timeTaken = end - start

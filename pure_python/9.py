@@ -8,8 +8,8 @@ currentDate = str(date.today())
 test = "'" + currentDate + "'"
 
 
-# s = "SELECT loannumber, h_tgcid, leadqualityscore, lq_grade FROM leadallocation_conformed.lead_submissions WHERE receiveddate={}"
-# print(s.format(test))
+s = "SELECT loannumber, h_tgcid, leadqualityscore, lq_grade FROM leadallocation_conformed.lead_submissions WHERE receiveddate={}"
+print(s.format(test))
 
 t = str(datetime.now())
 d = t.split('.')[0]

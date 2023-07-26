@@ -1,42 +1,48 @@
-# test_string = "hello how are you ? how many times have you eaten today ? are you saying saying this is a bad time to eat food ! I hope you are wrong becuase I do not agree with you . I hope you have a good day "
-#
-# test = test_string.split(' ')
-#
-# dictOfWords = {}
-#
-# for word in test:
-#     if word not in dictOfWords:
-#         dictOfWords[word] = 0
-#     dictOfWords[word] += 1
-#
-# sorted_dict = sorted(dictOfWords.items(), key=lambda x: x[1] , reverse=True)
-# print(sorted_dict)
-#
-# # counter=0
-# #
-# # for i in  sorted_dict:
-# #     counter += 1
-# #     if counter>5:
-# #         break
-# #     else:
-# #         print(i)
-#
-# print('\n')
-#
-# from collections import Counter
-# print(Counter(test_string.split()).most_common(5))
+test_string = "hello how are you ? how many times have you eaten today ? are you saying saying this is a bad time to eat food ! I hope you are wrong becuase I do not agree with you . I hope you have a good day "
+
+test = test_string.split(' ')
+
+dictOfWords = {}
+
+for word in test:
+    if word not in dictOfWords:
+        dictOfWords[word] = 0
+    dictOfWords[word] += 1
+
+sorted_dict = sorted(dictOfWords.items(), key=lambda x: x[1] , reverse=True)
+print(sorted_dict)
+
+counter=0
+
+for i in  sorted_dict:
+    counter += 1
+    if counter>5:
+        break
+    else:
+        print(i)
+
+print('\n')
+
+#####################################################################################################################
+
+from collections import Counter
+print(Counter(test_string.split()).most_common(5))
+
+#####################################################################################################################
 
 from datetime import date, timedelta, datetime
 
-# d1 = date(2019, 1, 1)  # start date
-# d2 = date(2019, 1, 5)  # end date
-#
-# delta = d2 - d1
-# print(delta.days)
-#
-# for i in range(delta.days + 1):
-#     receiveddate = d1 + timedelta(i)
-#     print(receiveddate)
+d1 = date(2019, 1, 1)  # start date
+d2 = date(2019, 1, 5)  # end date
+
+delta = d2 - d1
+print(delta.days)
+
+for i in range(delta.days + 1):
+    receiveddate = d1 + timedelta(i)
+    print(receiveddate)
+
+#####################################################################################################################
 
 start_timestamp = "2020-06-01 08:30:00.000"
 end_timestamp = "2020-06-02 23:30:00.000"

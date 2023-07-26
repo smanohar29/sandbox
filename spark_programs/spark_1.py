@@ -9,10 +9,10 @@ from pyspark.sql.types import IntegerType
 spark = pyspark.sql.SparkSession.builder.appName('test').getOrCreate()
 
 data = spark.read.format('csv').options(header='true', inferSchema='true').load('../data/maestro_leadquality_scores_1.csv')
-# data.show(5, False)
+data.show(5, False)
 
-# data = data.withColumn("attributecolumnname", F.lower(F.col("attributecolumnname")))
-# data.show(5, False)
+data = data.withColumn("attributecolumnname", F.lower(F.col("attributecolumnname")))
+data.show(5, False)
 
 def getRandomScores(randomcolumn):
     return random.randint(1, 15)
