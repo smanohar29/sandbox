@@ -1,5 +1,0 @@
-{
-  "query": "SELECT * FROM model_offline_feature_store.lead_allocation_features_loans_1_0_0_current WHERE campaign_group=='defib'",
-  "dataFrameSchemaPath": "config/input/prod/input_schema.json",
-  "requiredFields": ["loannumber", "h_tcashout", "h_tppresentval", "localmorningcallcount", "localafternooncallcount", "locallunchtimecallcount", "localeveningallcount", "leadagedays", "h_tcurrbal", "h_tbaseloanamt", "ltc_close_rate", "state_close_rate", "adproperty_close_rate", "escalationcount", "preesc_previoustransfercount", "preesc_previouscallcount", "credit_bucket", "leadtypebucket", "addressstatus", "loanpurpose", "h_thearaboutuscd", "h_lisva", "h_tisservicing", "localhourofdial", "clientemaildomain", "h_tdupsystemname", "hasclientrefinancedbefore", "h_tconfirmationemail", "currentloanvendor", "h_tprptytypcd", "h_torigmorttype", "dateid", "prediction"]
-}

@@ -1,4 +1,0 @@
-{
-  "tableName": "model_scoring_outputs_uat.defib_1_0_0_model_results_fix",
-  "outputColumns": ["loannumber","h_tcashout","h_tppresentval","localmorningcallcount","localafternooncallcount","locallunchtimecallcount","localeveningallcount","leadagedays","h_tcurrbal","h_tbaseloanamt","ltc_close_rate","state_close_rate","adproperty_close_rate","escalationcount","preesc_previoustransfercount","preesc_previouscallcount","credit_bucket","leadtypebucket","addressstatus","loanpurpose","h_thearaboutuscd","h_lisva","h_tisservicing","localhourofdial","clientemaildomain","h_tdupsystemname","hasclientrefinancedbefore","h_tconfirmationemail","currentloanvendor","h_tprptytypcd","h_torigmorttype","scoring_ts_utc","scoring_ts_est","prediction","datekey"]
-}

@@ -1,9 +1,0 @@
-{
-  "Business_Entity": "RocketScience",
-  "Application_Group": "LeadAllocation",
-  "Application_Activity": "DefibDialing",
-  "Application_Process": "Defib",
-  "Release_Version": "1.0.0",
-  "Environment": "BETA",
-  "Core_ID": "206737"
-}
