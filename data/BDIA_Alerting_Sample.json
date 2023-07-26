@@ -1,0 +1,21 @@
+ {
+  "count_alert": {
+      "application": "BDIA",
+      "frequency": "hourly",
+      "sourceQuery": "",
+      "bucketName": "rktdp-data-raw-filetransfer-249469647581-us-east-2-prod",
+      "prefix": "vendor/omniture/hourly/adobe-cloud/auditdata",
+      "targetDatabase": "rktdp_adobe_omniture_raw_access",
+      "targetTable": "adobe_rawdata_hourly",
+      "targetQuery": "",
+      "partitionColumns": [
+          "datekey",
+          "hour"],
+      "hourOffset": 2,
+      "countLookupValue": "Total-Records"
+  },
+  "partition_alert": {
+      "rdf_dq_db": "rktdp_rdf_metadata_repository_access",
+      "rdf_dq_table": "rdf_metadata_dq"
+  }
+}

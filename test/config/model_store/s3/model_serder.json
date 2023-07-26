@@ -1,0 +1,27 @@
+{
+  "version" : "0.9",
+  "implementations": [
+    {
+      "key":"scikit",
+      "impl":"scipy_serder.impl.SciPySerDer",
+      "protocols": ["file"]
+    },
+    {
+      "key":"sparkml",
+      "impl":"sparkml_serder.impl.SparkMLPipelineSerDer",
+      "protocols": ["file","hdfs","s3n"]
+    },
+    {
+      "key":"keras",
+      "impl":"keras_serder.impl.KerasSerDer",
+      "protocols": ["file"]
+    },
+    {
+      "key":"tensorflow",
+      "impl":"tensorflow_serder.impl.TensorflowSerDer",
+      "protocols": ["file"]
+    }
+
+  ]
+
+}

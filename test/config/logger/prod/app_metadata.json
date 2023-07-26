@@ -1,0 +1,9 @@
+{
+  "Business_Entity": "RocketScience",
+  "Application_Group": "LeadAllocation",
+  "Application_Activity": "FoundationDialing",
+  "Application_Process": "DialingPriority",
+  "Release_Version": "1.4.10",
+  "Environment": "PROD",
+  "Core_ID": "203754"
+}

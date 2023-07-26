@@ -1,0 +1,215 @@
+{
+    "categorical":["foundnewhome",
+                   "h_tdupsystemname",
+                   "h_torigmorttype",
+                   "h_tlbfirsttimehomebuyer",
+                   "h_tfirsttimehomebuyer",
+                   "h_tisservicing",
+                   "h_trealestateagent",
+                   "h_lisva",
+                   "h_tprptytypcd",
+                   "h_tcontactinfuture",
+                   "addressstatus",
+                   "h_tpurchaseagreement",
+                   "h_tlbsignedpurchaseagreement",
+                   "h_tlbtimeframetobuy",
+                   "leadtypebucket",
+                   "clientemaildomain",
+                   "firstnameinemail",
+                   "lastnameinemail"],
+
+    "continuous": ['h_tsalesprice',
+                   'h_tbaseloanamt',
+                   'leadduration',
+                   'h_sselfcreditrating',
+                   'totalhops',
+                   'h_tleadcost',
+                   'state_close_rate',
+                   'ltc_close_rate'],
+    "mapping":
+    [
+      {
+        "column": "h_tprptytypcd",
+        "map": {
+          "cd": "condo",
+          "condominium": "condo",
+          "townhouse": "townhouse",
+          "tw": "townhouse",
+          "tp": "townhouse",
+          "tu": "townhouse",
+          "sf": "singlefamily",
+          "single family": "singlefamily",
+          "singlefamdet": "singlefamily",
+          "2-4 family": "pub",
+          "2to4unitfam": "pub",
+          "multi_family dwelling": "pub",
+          "pub": "pub",
+          "dp": "duplex",
+          "mobilehome": "mobile",
+          "manufactured home": "mobile",
+          "mobile": "mobile"
+        }
+      },
+      {
+        "column": "h_torigmorttype",
+        "map": {
+          "test type": "missing",
+          "missing": "missing",
+          "yes": "yes",
+          "no": "no"
+        }
+      },
+      {
+        "column": "h_tlbfirsttimehomebuyer",
+        "map": {
+          "true": "yes",
+          "false": "no",
+          "missing": "missing"
+        }
+      },
+      {
+        "column": "h_lisva",
+        "map": {
+          "false": "no"
+        }
+      },
+    {
+        "column": "h_tlbtimeframetobuy",
+        "map": {
+            "offer_pending": "urgent",
+            "offer pending/found house": "urgent",
+            "offer pending/found a house": "urgent",
+            "offer pending / found a house": "urgent",
+            "immediately": "urgent",
+            "i need a pre-approval letter": "urgent",
+            "signed_purchase_agreement": "urgent",
+            "signed a purchase agreement": "urgent",
+            "buying in 30 days": "urgent",
+            "asap": "urgent",
+            "0-1 months": "30_90_days",
+            "30 days": "30_90_days",
+            "30_days": "30_90_days",
+            "1-3 months": "30_90_days",
+            "60 days": "30_90_days",
+            "90 days": "30_90_days",
+            "90_days": "30_90_days",
+            "buying in 2 to 3 months": "30_90_days",
+            "three_months": "30_90_days",
+            "2-3 months": "30_90_days",
+            "60_days": "30_90_days",
+            "180_days": "90+days",
+            "360_days": "90+days",
+            "6-12 months": "90+days",
+            "3-6 months": "90+days",
+            "buying in 3 to 6 months": "90+days",
+            "12+ months": "90+days",
+            "researching options": "90+days"
+        }
+    }
+    ],
+    "fix_minority_categories":
+[
+        {
+        "column": "h_sstate",
+        "keep_set":
+            ["SC",
+            "AZ",
+            "LA",
+            "MN",
+            "NJ",
+            "DC",
+            "OR",
+            "VA",
+            "RI",
+            "KY",
+            "WY",
+            "NH",
+            "MI",
+            "NV",
+            "WI",
+            "ID",
+            "CA",
+            "NE",
+            "CT",
+            "MT",
+            "NC",
+            "VT",
+            "MD",
+            "DE",
+            "MO",
+            "IL",
+            "ME",
+            "WA",
+            "ND",
+            "MS",
+            "AL",
+            "IN",
+            "OH",
+            "TN",
+            "IA",
+            "NM",
+            "PA",
+            "SD",
+            "NY",
+            "TX",
+            "WV",
+            "GA",
+            "MA",
+            "KS",
+            "FL",
+            "CO",
+            "AK",
+            "AR",
+            "OK",
+            "UT",
+            "HI"],
+            "other_value": "other"
+        },
+    {
+        "column": "clientemaildomain",
+        "keep_set": [
+          "@gmail.com",
+          "@yahoo.com",
+          "@hotmail.com",
+          "@aol.com",
+          "@comcast.net",
+          "@att.net",
+          "@msn.com",
+          "@verizon.net",
+          "@outlook.com"
+        ],
+        "other_value": "other"
+      },
+   {
+      "column": "h_tlbtimeframetobuy",
+       "keep_set": [
+           "urgent",
+           "30_90_days",
+           "90+days"
+       ],
+       "other_value": "other"
+   },
+   {
+      "column": "h_tprptytypcd",
+       "keep_set": [
+           "singlefamily",
+           "empty",
+           "condo",
+           "townhouse",
+           "duplex"
+       ],
+       "other_value": "other"
+   }
+    ],
+    "missing_indicator": [],
+    "combine_columns": [
+        {
+            "col_1": "h_tfirsttimehomebuyer",
+            "col_2": "h_tlbfirsttimehomebuyer"
+         },
+         {
+             "col_1": "h_tpurchaseagreement",
+             "col_2": "h_tlbsignedpurchaseagreement"
+         }
+    ]
+}

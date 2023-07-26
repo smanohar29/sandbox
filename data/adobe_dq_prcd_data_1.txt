@@ -1,0 +1,1000 @@
+           {
+            "Name": "evar1",
+            "Type": "string"
+           },
+           {
+            "Name": "internal_promotion_evar2",
+            "Type": "string"
+           },
+           {
+            "Name": "evar3",
+            "Type": "string"
+           },
+           {
+            "Name": "marketingid_evar4",
+            "Type": "string"
+           },
+           {
+            "Name": "rocketaccountid_evar5",
+            "Type": "string"
+           },
+           {
+            "Name": "loan_status_evar6",
+            "Type": "string"
+           },
+           {
+            "Name": "time_parting_evar7",
+            "Type": "string"
+           },
+           {
+            "Name": "rocketmortgage_loannumber_evar8",
+            "Type": "string"
+           },
+           {
+            "Name": "evar9",
+            "Type": "string"
+           },
+           {
+            "Name": "logintype_evar10",
+            "Type": "string"
+           },
+           {
+            "Name": "evar11",
+            "Type": "string"
+           },
+           {
+            "Name": "days_since_lastvisit_evar12",
+            "Type": "string"
+           },
+           {
+            "Name": "previous_pagename_evar13",
+            "Type": "string"
+           },
+           {
+            "Name": "url_evar14",
+            "Type": "string"
+           },
+           {
+            "Name": "calculation_ran_evar15",
+            "Type": "string"
+           },
+           {
+            "Name": "customlink_evar16",
+            "Type": "string"
+           },
+           {
+            "Name": "pathname_evar17",
+            "Type": "string"
+           },
+           {
+            "Name": "evar18",
+            "Type": "string"
+           },
+           {
+            "Name": "evar19",
+            "Type": "string"
+           },
+           {
+            "Name": "metricsid_evar20",
+            "Type": "string"
+           },
+           {
+            "Name": "closedloandate_evar21",
+            "Type": "string"
+           },
+           {
+            "Name": "evar22",
+            "Type": "string"
+           },
+           {
+            "Name": "documentname_evar23",
+            "Type": "string"
+           },
+           {
+            "Name": "evar24",
+            "Type": "string"
+           },
+           {
+            "Name": "evar25",
+            "Type": "string"
+           },
+           {
+            "Name": "evar26",
+            "Type": "string"
+           },
+           {
+            "Name": "affiliate_marketing_subids_evar27",
+            "Type": "string"
+           },
+           {
+            "Name": "r_pro_influencertype_evar28",
+            "Type": "string"
+           },
+           {
+            "Name": "evar29",
+            "Type": "string"
+           },
+           {
+            "Name": "pagename_nonpageviews_evar30",
+            "Type": "string"
+           },
+           {
+            "Name": "evar31",
+            "Type": "string"
+           },
+           {
+            "Name": "servicing_active_workout_flag_evar32",
+            "Type": "string"
+           },
+           {
+            "Name": "chatsession_evar33",
+            "Type": "string"
+           },
+           {
+            "Name": "evar34",
+            "Type": "string"
+           },
+           {
+            "Name": "evar35",
+            "Type": "string"
+           },
+           {
+            "Name": "accountcreateintent_evar36",
+            "Type": "string"
+           },
+           {
+            "Name": "clientsentiment_evar37",
+            "Type": "string"
+           },
+           {
+            "Name": "consenttype_evar38",
+            "Type": "string"
+           },
+           {
+            "Name": "evar39",
+            "Type": "string"
+           },
+           {
+            "Name": "evar40",
+            "Type": "string"
+           },
+           {
+            "Name": "mortgagegoal_evar41",
+            "Type": "string"
+           },
+           {
+            "Name": "logoutmethod_evar42",
+            "Type": "string"
+           },
+           {
+            "Name": "evar43",
+            "Type": "string"
+           },
+           {
+            "Name": "purchaseprice_evar44",
+            "Type": "string"
+           },
+           {
+            "Name": "rocketmortgage_referralid_evar45",
+            "Type": "string"
+           },
+           {
+            "Name": "income_evar46",
+            "Type": "string"
+           },
+           {
+            "Name": "adobetarget_redirect_qsp_evar47",
+            "Type": "string"
+           },
+           {
+            "Name": "years_remaining_evar48",
+            "Type": "string"
+           },
+           {
+            "Name": "cashout_amount_evar49",
+            "Type": "string"
+           },
+           {
+            "Name": "martialstatus_evar50",
+            "Type": "string"
+           },
+           {
+            "Name": "mortgage_balance_evar51",
+            "Type": "string"
+           },
+           {
+            "Name": "currentmonthly_payment_evar52",
+            "Type": "string"
+           },
+           {
+            "Name": "homevalue_evar53",
+            "Type": "string"
+           },
+           {
+            "Name": "zipcode_evar54",
+            "Type": "string"
+           },
+           {
+            "Name": "income_property_occupancytype_evar55",
+            "Type": "string"
+           },
+           {
+            "Name": "age_evar56",
+            "Type": "string"
+           },
+           {
+            "Name": "querystring_evar57",
+            "Type": "string"
+           },
+           {
+            "Name": "utm_source_evar58",
+            "Type": "string"
+           },
+           {
+            "Name": "initial_calculation_results_evar59",
+            "Type": "string"
+           },
+           {
+            "Name": "sessioncam_id_evar60",
+            "Type": "string"
+           },
+           {
+            "Name": "url_hash_evar61",
+            "Type": "string"
+           },
+           {
+            "Name": "evar62",
+            "Type": "string"
+           },
+           {
+            "Name": "chat_agent_availabilty_evar63",
+            "Type": "string"
+           },
+           {
+            "Name": "utmcampaign_evar64",
+            "Type": "string"
+           },
+           {
+            "Name": "utmmedium_evar65",
+            "Type": "string"
+           },
+           {
+            "Name": "agent_leadform_purpose_evar66",
+            "Type": "string"
+           },
+           {
+            "Name": "evar67",
+            "Type": "string"
+           },
+           {
+            "Name": "utmcontent_evar68",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_loaninfo_string_evar69",
+            "Type": "string"
+           },
+           {
+            "Name": "b2b_partnername_evar70",
+            "Type": "string"
+           },
+           {
+            "Name": "businesschannel_evar71",
+            "Type": "string"
+           },
+           {
+            "Name": "evar72",
+            "Type": "string"
+           },
+           {
+            "Name": "prev_mortgageholder_evar73",
+            "Type": "string"
+           },
+           {
+            "Name": "evar74",
+            "Type": "string"
+           },
+           {
+            "Name": "falloutreason_evar75",
+            "Type": "string"
+           },
+           {
+            "Name": "video_interactiontype_evar76",
+            "Type": "string"
+           },
+           {
+            "Name": "vendor_institutionname_evar77",
+            "Type": "string"
+           },
+           {
+            "Name": "vendor_signin_failuremessage_evar78",
+            "Type": "string"
+           },
+           {
+            "Name": "teammmemberpublic_guid_evar79",
+            "Type": "string"
+           },
+           {
+            "Name": "evar80",
+            "Type": "string"
+           },
+           {
+            "Name": "evar81",
+            "Type": "string"
+           },
+           {
+            "Name": "evar82",
+            "Type": "string"
+           },
+           {
+            "Name": "voctype_evar83",
+            "Type": "string"
+           },
+           {
+            "Name": "intercepttype_evar84",
+            "Type": "string"
+           },
+           {
+            "Name": "language_evar85",
+            "Type": "string"
+           },
+           {
+            "Name": "search_result_pagenumber_evar86",
+            "Type": "string"
+           },
+           {
+            "Name": "path_finder_pagetitle_evar87",
+            "Type": "string"
+           },
+           {
+            "Name": "search_result_index_evar88",
+            "Type": "string"
+           },
+           {
+            "Name": "user_agent_evar89",
+            "Type": "string"
+           },
+           {
+            "Name": "evar90",
+            "Type": "string"
+           },
+           {
+            "Name": "propertytype_evar91",
+            "Type": "string"
+           },
+           {
+            "Name": "propertyuse_evar92",
+            "Type": "string"
+           },
+           {
+            "Name": "evar93",
+            "Type": "string"
+           },
+           {
+            "Name": "lander_qpv_querystring_evar94",
+            "Type": "string"
+           },
+           {
+            "Name": "pathfinder_searchnumber_evar95",
+            "Type": "string"
+           },
+           {
+            "Name": "evar96",
+            "Type": "string"
+           },
+           {
+            "Name": "utm_term_evar97",
+            "Type": "string"
+           },
+           {
+            "Name": "search_autosuggest_index_evar98",
+            "Type": "string"
+           },
+           {
+            "Name": "evar99",
+            "Type": "string"
+           },
+           {
+            "Name": "evar100",
+            "Type": "string"
+           },
+           {
+            "Name": "mortgage_leadkilled_subreason_evar101",
+            "Type": "string"
+           },
+           {
+            "Name": "rocket_homes_campaign_tracking_evar102",
+            "Type": "string"
+           },
+           {
+            "Name": "mortgage_leadkilled_reason_evar103",
+            "Type": "string"
+           },
+           {
+            "Name": "purchaselikeliscore_evar104",
+            "Type": "string"
+           },
+           {
+            "Name": "evar105",
+            "Type": "string"
+           },
+           {
+            "Name": "akamai_botman_value_evar106",
+            "Type": "string"
+           },
+           {
+            "Name": "appsflyer_campaign_evar107",
+            "Type": "string"
+           },
+           {
+            "Name": "appsflyer_media_source_evar108",
+            "Type": "string"
+           },
+           {
+            "Name": "evar109",
+            "Type": "string"
+           },
+           {
+            "Name": "evar110",
+            "Type": "string"
+           },
+           {
+            "Name": "evar111",
+            "Type": "string"
+           },
+           {
+            "Name": "tpo_loan_appid_evar112",
+            "Type": "string"
+           },
+           {
+            "Name": "evar113",
+            "Type": "string"
+           },
+           {
+            "Name": "evar114",
+            "Type": "string"
+           },
+           {
+            "Name": "rocketmortgage_loanguid_evar115",
+            "Type": "string"
+           },
+           {
+            "Name": "rocketmortgage_commonid_evar116",
+            "Type": "string"
+           },
+           {
+            "Name": "coredigital_providerid_evar117",
+            "Type": "string"
+           },
+           {
+            "Name": "evar118",
+            "Type": "string"
+           },
+           {
+            "Name": "evar119",
+            "Type": "string"
+           },
+           {
+            "Name": "previous_searchresult_index_evar120",
+            "Type": "string"
+           },
+           {
+            "Name": "rmo_hardware_results_evar121",
+            "Type": "string"
+           },
+           {
+            "Name": "rmo_hardware_success_evar122",
+            "Type": "string"
+           },
+           {
+            "Name": "rmo_hardware_camera_evar123",
+            "Type": "string"
+           },
+           {
+            "Name": "rmo_hardware_connection_evar124",
+            "Type": "string"
+           },
+           {
+            "Name": "rmo_hardware_status_evar125",
+            "Type": "string"
+           },
+           {
+            "Name": "rmo_hardware_device_evar126",
+            "Type": "string"
+           },
+           {
+            "Name": "evar127",
+            "Type": "string"
+           },
+           {
+            "Name": "evar128",
+            "Type": "string"
+           },
+           {
+            "Name": "evar129",
+            "Type": "string"
+           },
+           {
+            "Name": "evar130",
+            "Type": "string"
+           },
+           {
+            "Name": "evar131",
+            "Type": "string"
+           },
+           {
+            "Name": "evar132",
+            "Type": "string"
+           },
+           {
+            "Name": "evar133",
+            "Type": "string"
+           },
+           {
+            "Name": "evar134",
+            "Type": "string"
+           },
+           {
+            "Name": "evar135",
+            "Type": "string"
+           },
+           {
+            "Name": "evar136",
+            "Type": "string"
+           },
+           {
+            "Name": "evar137",
+            "Type": "string"
+           },
+           {
+            "Name": "evar138",
+            "Type": "string"
+           },
+           {
+            "Name": "evar139",
+            "Type": "string"
+           },
+           {
+            "Name": "evar140",
+            "Type": "string"
+           },
+           {
+            "Name": "pathfinder_enable_xid_evar141",
+            "Type": "string"
+           },
+           {
+            "Name": "pathfinder_preferences_default_channel_evar142",
+            "Type": "string"
+           },
+           {
+            "Name": "leadsourcegroup_evar143",
+            "Type": "string"
+           },
+           {
+            "Name": "evar144",
+            "Type": "string"
+           },
+           {
+            "Name": "evar145",
+            "Type": "string"
+           },
+           {
+            "Name": "evar146",
+            "Type": "string"
+           },
+           {
+            "Name": "evar147",
+            "Type": "string"
+           },
+           {
+            "Name": "evar148",
+            "Type": "string"
+           },
+           {
+            "Name": "evar149",
+            "Type": "string"
+           },
+           {
+            "Name": "evar150",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_agent_id_evar151",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_agency_id_evar152",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_order_id_evar153",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_order_status_evar154",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_count_evar155",
+            "Type": "string"
+           },
+           {
+            "Name": "home_price_evar156",
+            "Type": "string"
+           },
+           {
+            "Name": "evar157",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_filter_category_evar158",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_access_location_evar159",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_email_evar160",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_updated_agent_id_evar161",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_todo_name_evar162",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_todo_status_evar163",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_upload_type_evar164",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_milestone_evar165",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_has_description_evar166",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_process_start_evar167",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_process_end_evar168",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_file_size_evar169",
+            "Type": "string"
+           },
+           {
+            "Name": "closing_portal_is_success_evar170",
+            "Type": "string"
+           },
+           {
+            "Name": "mortgage_status_evar171",
+            "Type": "string"
+           },
+           {
+            "Name": "agent_status_evar172",
+            "Type": "string"
+           },
+           {
+            "Name": "evar173",
+            "Type": "string"
+           },
+           {
+            "Name": "evar174",
+            "Type": "string"
+           },
+           {
+            "Name": "evar175",
+            "Type": "string"
+           },
+           {
+            "Name": "evar176",
+            "Type": "string"
+           },
+           {
+            "Name": "evar177",
+            "Type": "string"
+           },
+           {
+            "Name": "evar178",
+            "Type": "string"
+           },
+           {
+            "Name": "evar179",
+            "Type": "string"
+           },
+           {
+            "Name": "glassbox_visitor_id_evar180",
+            "Type": "string"
+           },
+           {
+            "Name": "glassbox_session_id_evar181",
+            "Type": "string"
+           },
+           {
+            "Name": "evar182",
+            "Type": "string"
+           },
+           {
+            "Name": "evar183",
+            "Type": "string"
+           },
+           {
+            "Name": "evar184",
+            "Type": "string"
+           },
+           {
+            "Name": "evar185",
+            "Type": "string"
+           },
+           {
+            "Name": "evar186",
+            "Type": "string"
+           },
+           {
+            "Name": "evar187",
+            "Type": "string"
+           },
+           {
+            "Name": "evar188",
+            "Type": "string"
+           },
+           {
+            "Name": "evar189",
+            "Type": "string"
+           },
+           {
+            "Name": "evar190",
+            "Type": "string"
+           },
+           {
+            "Name": "evar191",
+            "Type": "string"
+           },
+           {
+            "Name": "evar192",
+            "Type": "string"
+           },
+           {
+            "Name": "evar193",
+            "Type": "string"
+           },
+           {
+            "Name": "evar194",
+            "Type": "string"
+           },
+           {
+            "Name": "evar195",
+            "Type": "string"
+           },
+           {
+            "Name": "evar196",
+            "Type": "string"
+           },
+           {
+            "Name": "evar197",
+            "Type": "string"
+           },
+           {
+            "Name": "evar198",
+            "Type": "string"
+           },
+           {
+            "Name": "evar199",
+            "Type": "string"
+           },
+           {
+            "Name": "evar200",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_open_a_scenario_evar201",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_start_yourgage_scenario_evar202",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_scenario_capture_evar203",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_start_a_newloan_evar204",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_leads_requiring_action_evar205",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_loans_needing_attention_evar206",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_loan_status_updates_evar207",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_loans_with_conditions_updated_evar208",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_loans_funded_this_month_evar209",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_turntimes_evar210",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_marketinghub_evar211",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_propertyhub_evar212",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_theanswer_evar213",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_loan_clicked_evar214",
+            "Type": "string"
+           },
+           {
+            "Name": "qlms_sfmc_submit_full_package_evar215",
+            "Type": "string"
+           },
+           {
+            "Name": "reggiegatherer_success_evar216",
+            "Type": "string"
+           },
+           {
+            "Name": "evar217",
+            "Type": "string"
+           },
+           {
+            "Name": "r_pro_partnershipname_evar218",
+            "Type": "string"
+           },
+           {
+            "Name": "r_pro_appname_evar219",
+            "Type": "string"
+           },
+           {
+            "Name": "chat_vendor_name_evar220",
+            "Type": "string"
+           },
+           {
+            "Name": "chat_agent_session_id_evar221",
+            "Type": "string"
+           },
+           {
+            "Name": "evar222",
+            "Type": "string"
+           },
+           {
+            "Name": "page_view_counter_visit_evar223",
+            "Type": "string"
+           },
+           {
+            "Name": "custom_limk_counter_visit_evar224",
+            "Type": "string"
+           },
+           {
+            "Name": "custom_limk_counter_page_evar225",
+            "Type": "string"
+           },
+           {
+            "Name": "evar226",
+            "Type": "string"
+           },
+           {
+            "Name": "lead_source_audience_lsa_evar227",
+            "Type": "string"
+           },
+           {
+            "Name": "evar228",
+            "Type": "string"
+           },
+           {
+            "Name": "evar229",
+            "Type": "string"
+           },
+           {
+            "Name": "evar230",
+            "Type": "string"
+           },
+           {
+            "Name": "evar231",
+            "Type": "string"
+           },
+           {
+            "Name": "evar232",
+            "Type": "string"
+           },
+           {
+            "Name": "evar233",
+            "Type": "string"
+           },
+           {
+            "Name": "evar234",
+            "Type": "string"
+           },
+           {
+            "Name": "evar235",
+            "Type": "string"
+           },
+           {
+            "Name": "evar236",
+            "Type": "string"
+           },
+           {
+            "Name": "evar237",
+            "Type": "string"
+           },
+           {
+            "Name": "evar238",
+            "Type": "string"
+           },
+           {
+            "Name": "evar239",
+            "Type": "string"
+           },
+           {
+            "Name": "evar240",
+            "Type": "string"
+           },
+           {
+            "Name": "evar241",
+            "Type": "string"
+           },
+           {
+            "Name": "evar242",
+            "Type": "string"
+           },
+           {
+            "Name": "evar243",
+            "Type": "string"
+           },
+           {
+            "Name": "evar244",
+            "Type": "string"
+           },
+           {
+            "Name": "evar245",
+            "Type": "string"
+           },
+           {
+            "Name": "evar246",
+            "Type": "string"
+           },
+           {
+            "Name": "evar247",
+            "Type": "string"
+           },
+           {
+            "Name": "evar248",
+            "Type": "string"
+           },
+           {
+            "Name": "evar249",
+            "Type": "string"
+           },
+           {
+            "Name": "evar250",
+            "Type": "string"
+           },

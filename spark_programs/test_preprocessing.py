@@ -1,0 +1,362 @@
+config = {
+   "projectName": "Dialing Priority Deployment",
+   "coreId": "203755",
+   "preprocess": {
+      "ColsToLower": [
+         "clientemailtopleveldomain",
+         "clientemaildomain",
+         "h_torigmorttype",
+         "h_thome_search_status",
+         "h_twebcredit",
+         "h_lisva"
+      ],
+      "EmptyToDefault": [
+         "h_thome_search_status",
+         "h_thearaboutuscd",
+         "h_sstate",
+         "clientemailtopleveldomain",
+         "clientemaildomain",
+         "addressstatus",
+         "h_tleasing",
+         "h_torigmorttype",
+         "timezone",
+         "leadtimebucket",
+         "calldayofweek",
+         "h_twebcredit",
+         "h_tprptytypcd",
+         "leadtypebucket",
+         "h_sstate",
+         "clientemaildomain",
+         "loanpurpose",
+         "h_tgoals",
+         "h_lisva",
+         "h_tisservicing",
+         "holidayflg",
+         "weekendflg",
+         "localleadtimebucket"
+      ],
+      "numerical": [
+         "h_tcurrbal",
+         "h_tbaseloanamt",
+         "h_tsalesprice",
+         "ltc_close_rate",
+         "state_close_rate",
+         "adproperty_close_rate",
+         "leadagedays",
+         "localmorningcallcount",
+         "locallunchtimecallcount",
+         "localafternooncallcount",
+         "localeveningallcount",
+         "localnightcallcount",
+         "previousdaycallcount",
+         "currentdaycallcount",
+         "previouscallscount"
+      ],
+      "ColToMinority": [
+         {
+            "column_name": "clientemaildomain",
+            "keep_set": [
+               "@gmail.com",
+               "@yahoo.com",
+               "@hotmail.com",
+               "@aol.com",
+               "@comcast.net",
+               "@att.net",
+               "@msn.com",
+               "@verizon.net",
+               "@outlook.com"
+            ],
+            "other_value": "other"
+         },
+         {
+            "column_name": "h_thearaboutuscd",
+            "keep_set": [
+               "online ad"
+            ],
+            "other_value": "minority"
+         },
+         {
+            "column_name": "addressstatus",
+            "keep_set": [
+               "Approved",
+               "Corrected",
+               "NotFound"
+            ],
+            "other_value": "NotVerified"
+         },
+         {
+            "column_name": "leadtypebucket",
+            "keep_set": [
+               "other",
+               "leadbuy",
+               "lmb_lp",
+               "lmbstyle_lp",
+               "lendingtree1",
+               "web",
+               "rocketloans",
+               "lendingtree2",
+               "cari",
+               "rocket",
+               "leadbuy_conql"
+            ],
+            "other_value": "minority"
+         },
+         {
+            "column_name": "h_twebcredit",
+            "keep_set": [
+               "excellent",
+               "good",
+               "average",
+               "below average",
+               "fair"
+            ],
+            "other_value": "minority"
+         },
+         {
+            "column_name": "h_lisva",
+            "keep_set": [
+               "false",
+               "true"
+            ],
+            "other_value": "missing"
+         },
+         {
+            "column_name": "h_tgoals",
+            "keep_set": [
+               "first time homebuyer",
+               "moving and selling",
+               "buying investment property",
+               "buying second home",
+               "no"
+            ],
+            "other_value": "minority"
+         },
+         {
+            "column_name": "clientemailtopleveldomain",
+            "keep_set": [
+               "submissionengine",
+               "datamart - cariclosedclient",
+               "datamart - lolaactiveleads",
+               "datamart - actioncycle",
+               "submissionenginerecentleads"
+            ],
+            "other_value": "minority"
+         },
+         {
+            "column_name": "h_tprptytypcd",
+            "keep_set": [
+               "single family",
+               "condo",
+               "duplex"
+            ],
+            "other_value": "minority"
+         },
+         {
+            "column_name": "h_thome_search_status",
+            "keep_set": [
+               "refinance",
+               "buying in 30 days",
+               "offer pending / found a house",
+               "buying in 2 to 3 months",
+               "signed a purchase agreement",
+               "researching options",
+               "buying in 3 to 6 months",
+               "cashoutrefinance",
+               "buying in 6+ months"
+            ],
+            "other_value": "minority"
+         },
+         {
+            "column_name": "localhourofdial",
+            "keep_set": [
+               "10",
+               "12",
+               "14",
+               "8",
+               "15",
+               "13",
+               "16",
+               "11",
+               "9",
+               "17",
+               "18",
+               "19",
+               "20",
+               "-1"
+            ],
+            "other_value": "minority"
+         }
+      ],
+      "fill_na": [
+         {
+            "value": -1,
+            "columns": [
+               "h_sselfcreditrating",
+               "h_tcashout",
+               "h_tppresentval"
+            ]
+         },
+         {
+            "value": 0,
+            "columns": [
+               "h_tisservicing",
+               "leadagedays",
+               "h_lisva"
+            ]
+         },
+         {
+            "value": "missing",
+            "columns": [
+               "h_thome_search_status",
+               "h_twebcredit",
+               "h_thearaboutuscd"
+            ]
+         }
+      ],
+      "when_constant": [
+         {
+            "column": "h_tisservicing",
+            "condition": -1,
+            "change_to": 0
+         },
+         {
+            "column": "h_tppresentval",
+            "condition": 0,
+            "change_to": 180001
+         },
+         {
+            "column": "h_sselfcreditrating",
+            "condition": 0,
+            "change_to": 661
+         },
+         {
+            "column": "h_tbaseloanamt",
+            "condition": 0,
+            "change_to": 90001
+         }
+      ],
+      "when_column": [
+         {
+            "column": "h_tppresentval",
+            "condition": 0,
+            "change_to": "h_tsalesprice"
+         }
+      ],
+      "mapping": [
+         {
+            "column": "h_lisva",
+            "map": {
+               "yes": "true",
+               "no": "false"
+            }
+         },
+         {
+            "column": "h_torigmorttype",
+            "map": {
+               "YES": "yes",
+               "Yes": "yes",
+               "NO": "no",
+               "No": "no",
+               "VA": "VA",
+               "CONVENTIONAL": "CONVENTIONAL"
+            }
+         },
+         {
+            "column": "h_twebcredit",
+            "map": {
+               "below_average": "below average",
+               "poor": "below average",
+               "720": "excellent",
+               "725": "excellent",
+               "760": "excellent"
+            }
+         },
+         {
+            "column": "h_tprptytypcd",
+            "map": {
+               "sf": "single family",
+               "cd": "condo",
+               "dp": "duplex",
+               "mh": "mobilehome"
+            }
+         },
+         {
+            "column": "h_thome_search_status",
+            "map": {
+               "within 30 days": "buying in 30 days",
+               "2-3 months": "buying in 2 to 3 months",
+               "3-6 months": "buying in 3 to 6 months",
+               "6+ months": "buying in 6+ months",
+               "immediately: signed a purchase agreement": "signed a purchase agreement"
+            }
+         },
+         {
+            "column": "h_tgoals",
+            "map": {
+               "moving and selling home": "moving and selling",
+               "first time home buyer": "first time homebuyer"
+            }
+         },
+         {
+            "column": "propertyuse",
+            "map": {
+               "primaryresidence": "primary residence",
+               "primary": "primary residence",
+               "secondaryhome": "secondary home",
+               "investmentproperty": "investment property"
+            }
+         }
+      ],
+      "fill_median": [
+         {
+            "name": "h_tppresentval",
+            "value": 250001
+         },
+         {
+            "name": "h_tdownpayment",
+            "value": 10500
+         },
+         {
+            "name": "adproperty_close_rate",
+            "value": 0.015249364
+         },
+         {
+            "name": "ltc_close_rate",
+            "value": 0.0066406503
+         },
+         {
+            "name": "h_sselfcreditrating",
+            "value": 701
+         },
+         {
+            "name": "state_close_rate",
+            "value": 0.01824042
+         },
+         {
+            "name": "h_tcurrbal",
+            "value": 115000
+         },
+         {
+            "name": "h_tbaseloanamt",
+            "value": 50001
+         }
+      ],
+      "fill_zero": [
+         "h_tcashout"
+      ],
+      "fill_negativeone": [
+         "h_tsalesprice",
+         "leadagedays",
+         "localmorningcallcount",
+         "locallunchtimecallcount",
+         "localafternooncallcount",
+         "localeveningallcount",
+         "localnightcallcount",
+         "previousdaycallcount",
+         "currentdaycallcount",
+         "previouscallscount"
+      ]
+   }
+}
+
+print(config['preprocess']['fill_median'])

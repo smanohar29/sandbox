@@ -1,0 +1,19 @@
+{
+  "application": "adobe",
+  "frequency": "hourly",
+  "auditTable": "rktdp_audit_access.digital_data_alert_partition_audit",
+  "auditTableBucket": "rktdp-data-utils-249469647581-useast2-prod",
+  "auditTablePrefix": "glue-catalog/db/rktdp_audit/digital_data_alert_partition_audit",
+  "partition_alert": [
+    {
+      "targetTable": "rktdp_conformed_access.adobe_mcvisid_bridge_conformed",
+      "partitionColumns": [
+        "datekey"
+      ],
+      "partitionGrain": "datekey",
+      "expectedNumberOfPartitions": "",
+      "offsetType": "day",
+      "offsetValue": 1
+    }
+  ]
+}

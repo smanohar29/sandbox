@@ -1,0 +1,23 @@
+{
+    "logger": {
+      "impl": "rsp_logger.impl.metric_logger.SimpleMetricLogger",
+      "level": "DEBUG",
+      "metadataLocation": "config/logger/uat/app_metadata.json",
+      "params": {
+        "format": "%(asctime)s %(levelname)s %(name)s.%(funcName)s:%(lineno)d %(message)s",
+        "default_app_id": 0
+      }
+    },
+    "handlers":{
+      "default": [
+        {
+          "impl": "rsp_logger.handler.influxDB_handler.InfluxDBHandler",
+          "params": {
+            "kwargs":{
+              "configFileLocation": "config/logger/uat/influxDB_config.json"
+            }
+          }
+        }
+      ]
+    }
+  }

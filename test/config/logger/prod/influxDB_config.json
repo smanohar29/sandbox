@@ -1,0 +1,10 @@
+{
+  "base_url": "https://influxdb.qlmetrics.com/write",
+  "params": {
+    "db": "RSPLMaestroFunctionMetrics",
+    "u": "maestro",
+    "p": "aw@02&$iQQU4",
+    "consistency": "Any",
+    "rp": "Raw"
+  }
+}

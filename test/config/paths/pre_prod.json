@@ -1,0 +1,36 @@
+{
+  "paths":[
+    {
+      "default":true,
+      "elements":
+      [
+        {
+          "name":"qname",
+          "keyword":false,
+          "argindex":0,
+          "unique":true
+        },
+        {
+          "name":"flavor",
+          "keyword":true,
+          "unique":false
+        },
+        {
+          "name":"major",
+          "keyword":true,
+          "unique":true
+        },
+        {
+          "name":"minor",
+          "keyword":true,
+          "unique":true
+        },
+        {
+          "name":"iteration",
+          "keyword":true,
+          "unique":false
+        }
+      ]
+    }
+  ]
+}

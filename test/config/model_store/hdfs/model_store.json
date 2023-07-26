@@ -1,0 +1,33 @@
+{
+  "version" : "0.9",
+  "implementations": [
+    {
+      "key":"local_rw",
+      "impl":"rsp_store.model.ModelStore",
+      "protocols":[
+        {
+          "protocol":"file",
+          "impl":"rsp_store.util.local.FileSystemUtils",
+           "params":{
+              "positional":["/prod/DataScience/Maestro/DialingPrioritization/models"],
+              "kwargs":{
+                "paths": "file://config/paths/pre_prod.json"
+              }
+           }
+        },
+        {
+          "protocol":"hdfs",
+          "impl":"rsp_store.util.hdfs.FileSystemUtils",
+           "params":{
+              "positional":["/prod/DataScience/Maestro/DialingPrioritization/models"],
+              "kwargs":{
+                "paths": "file://config/paths/pre_prod.json"
+              }
+           }
+        }
+      ],
+      "serder": ["scikit", "sparkml", "keras","tensorflow"],
+      "base_protocol": "hdfs"
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+{
+   "InputQuery": "SELECT uniquevisitkey AS WebSessionID, mcvisid_visitorid AS WebVisitorID, '71f69895-0c9c-dadc-3d19-bb7411177a78' as TenantID, device_prop53 AS WebDeviceType, visitstarttime AS WebVisitStartTimestamp, WebVisitorIPAddress, visitnumber AS WebVisitorVisitSequenceNumber, browser AS Webbrowserid, Date_time, datekey, hour FROM rktdp_adobe_omniture_raw_processed_access.adobe_dq_prcd_data WHERE dateFilter AND hit_source NOT IN ('5', '7', '8', '9')"
+}
